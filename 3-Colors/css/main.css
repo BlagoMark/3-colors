@@ -1,0 +1,146 @@
+@font-face {
+    font-family: "OpenSans";
+    src:url(../fonts/OpenSans-Light.ttf);
+}
+* {
+    font-family: OpenSans;
+}
+html {
+    scroll-behavior: smooth;
+}
+html, body {
+    margin: 0;
+    padding: 0;
+}
+.container {
+    width: 80%;
+    margin: auto;
+}
+.container2 {
+    width: 60%;
+    margin: auto;
+}
+header {
+    background: url(../img/bg.png) no-repeat top;
+    background-size: cover;
+    height: 80vh;
+    border-image-width: 100%;
+}
+.uk-navbar li {
+    font-family: OpenSans;
+}
+@media screen and (max-width: 640px) {
+    .caption-child {
+        text-align: center;
+    }
+}
+.caption {
+    margin: 10% 0;
+}
+.caption h3 {
+    font-family: OpenSans;
+    font-size: 40px;
+    margin: 0 0 -3% 0;
+    padding: 0;
+}
+.caption a {
+    border-radius: 5px;
+}
+.there {
+    padding: 10% 0;
+}
+.headline {
+    font-size: 30px;
+}
+.colors {
+    margin: 80px 0 0 0;
+}
+.cl {
+    display: inline-block;
+    margin: 0;
+    width: 36px;
+    height: 36px;
+    background-color: black;
+}
+.cl1 {
+    background: #ee732f;
+}
+.cl2 {
+    background: #f74c55;
+}
+.cl3 {
+    background: #2d5f3b;
+}
+.cl4 {
+    background: #404040;
+}
+.cl5 {
+    background: #fb636b;
+}
+.boxes img {
+    display: inline-block;
+}
+.box1 {
+    background: #404040;
+}
+.box2 {
+    background: #f74c55;
+}
+.box3 {
+    background: #2d5f3b;
+}
+.box-headline {
+    display: inline-block;
+    font-size: 22px;
+}
+.box-text {
+    font-size: 14px;
+}
+.overlay {
+    background: url(../img/bg2.png) no-repeat center;
+    background-size: cover;
+    padding: 15%;
+    margin: 0;
+}
+.overlay h2 {
+    font-size: 42px;
+    font-family: OpenSans
+}
+.overlay a {
+    border-radius: 5px;
+    border-width: 3px;
+}
+.line {
+    margin: 0;
+    padding: 0;
+    white-space: nowrap;
+    display: table;
+}
+.line-item {
+    display: inline-block;
+    display: table-cell;
+    vertical-align: top;
+    height: 10px;
+    width: 36px;
+    margin: 0;
+    padding: 0;
+}
+.line-item1 {
+    background: #404040;
+}
+.line-item2 {
+    background: #fb636b;
+}
+.line-item3 {
+    background: #f74c55;
+}
+.line-item4 {
+    background: #2d5f3b;
+}
+.line-item5 {
+    background: #ee732f;
+}
+footer {
+    padding: 20px 0 0 0;
+    text-align: center;
+}
